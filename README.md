@@ -1,5 +1,5 @@
-# waterbug-server
-This piece is the express server that is also the web socket server for the Waterbug project.
+# astrow
+This piece is the express server that is also the web socket server for the Astrow project.
 
 # Getting Started
 ```
