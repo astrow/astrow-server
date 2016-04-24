@@ -17,8 +17,8 @@ io.on("connection", function(socket) {
     // when any client sends a "stroke" or "startrace" message it will be passed on to all other connected clients
     // inside these handlers is where we would "intercept" all messages to persist data to a database
     socket.on("stroke", data => io.emit("stroke", data));
-    socket.on("startrace", data => io.emit("startrace", data));
-    socket.on("stoprace", data => io.emit("stoprace", data));
+    socket.on("start", data => io.emit("start", data));
+    socket.on("stop", data => io.emit("stop", data));
 });
 
 app.get('/', (req,res) => {
