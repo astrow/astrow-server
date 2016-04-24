@@ -1,15 +1,15 @@
 {
-  "name": "waterbug-server",
+  "name": "astrow-server",
   "version": "0.1.0",
   "author": "Jeremy Foster <jeremy.foster@live.com> (http://codefoster.com)",
-  "description": "Socket server for the Waterbug project",
+  "description": "Socket server for the Astrow project",
   "scripts": {
       "start": "nodemon server.js"
   },
   "license": "Apache-2.0",
   "repository": {
       "type": "git",
-      "url": "git+https://github.com/codefoster/waterbug-server.git"
+      "url": "git+https://github.com/astrow/astrow-server.git"
   },
   "dependencies": {
     "express": "^4.13.3",
